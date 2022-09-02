@@ -1,0 +1,17 @@
+.btn {
+    display: flex;
+   margin-top: 0.9rem;
+   width: 100%;
+}
+
+.form-group{
+    width:479px;
+}
+
+h1{
+   padding: 2rem;
+}
+
+input{
+    margin-top: 1.5rem;
+}

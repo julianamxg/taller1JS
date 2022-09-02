@@ -1,0 +1,33 @@
+.btn {
+    display: flex;
+   margin-top: 0.9rem;
+   width: 100%;
+}
+
+.form-group{
+    width:479px;
+}
+
+h1{
+   padding: 2rem;
+}
+
+label{
+    margin-top: 0.9rem;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
