@@ -58,8 +58,8 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
+              <img class="card-img-top" src="img/circulo.png" alt="Card image cap"><br><br>
               <h5 class="card-title">Circulo</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
               <a id="areaC" href="#" class="btn btn-secondary">Área</a>
             </div>
@@ -68,8 +68,8 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
+              <img class="card-img-top" src="img/triangulo.png" alt="Card image cap"><br><br>
               <h5 class="card-title">Triangulo</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a id="perimetroT" href="#" class="btn btn-secondary">Perímetro</a>
               <a id="areaT" href="#" class="btn btn-secondary">Área</a>
             </div>
@@ -80,20 +80,20 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
+              <img class="card-img-top" src="img/cuadrado.png" alt="Card image cap"><br><br>
               <h5 class="card-title">Cuadrado</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-secondary">Perímetro</a>
-              <a href="#" class="btn btn-secondary">Área</a>
+              <a id="perimetroCu" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaCu" href="#" class="btn btn-secondary">Área</a>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
+              <img class="card-img-top" src="img/rectangulo.png" alt="Card image cap"><br><br>
               <h5 class="card-title">Rectangulo</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-secondary">Perímetro</a>
-              <a href="#" class="btn btn-secondary">Área</a>
+              <a id="perimetroR" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaR" href="#" class="btn btn-secondary">Área</a>
             </div>
           </div>
         </div>
@@ -105,9 +105,9 @@
     <div id="perimetroCirculo" class="modal">
       <div class="contenidoModal">
         <span class="cerrarModalC"><i class="fa-solid fa-xmark"></i></span>
-        <h2>Perímetro</h2>
+        <h2>Perímetro de circulo</h2>
         <div class="form-group">
-          <input id="radio" type="text" class="form-control" placeholder="Ingresa el radio del circulo">
+          <input id="radio" type="number" class="form-control" placeholder="Ingresa el radio del circulo">
           <button id="calcularPC" type="button" class="btn btn-secondary">Calcular</button>
         </div>
       </div>
@@ -116,7 +116,7 @@
     <div id="areaCirculo" class="modal">
       <div class="contenidoModal">
         <span class="cerrarModal"><i class="fa-solid fa-xmark"></i></span>
-        <h2>Área</h2>
+        <h2>Área de circulo</h2>
         <div class="form-group">
           <input id="radio" type="text" class="form-control" placeholder="Ingresa el radio del circulo">
           <button id="calcularAC" type="button" class="btn btn-secondary">Calcular</button>
@@ -128,11 +128,11 @@
     <div id="perimetroTriangulo" class="modal">
       <div class="contenidoModal">
         <span class="cerrarModalT"><i class="fa-solid fa-xmark"></i></span>
-        <h2>Perímetro</h2>
+        <h2>Perímetro de triangulo</h2>
         <div class="form-group">
-          <input id="lado1" type="text" class="form-control" placeholder="Ingresa el primer lado del triangulo">
-          <input id="lado2" type="text" class="form-control" placeholder="Ingresa el segundo lado del triangulo">
-          <input id="lado3" type="text" class="form-control" placeholder="Ingresa el tercer lado del triangulo">
+          <input id="lado1" type="number" class="form-control" placeholder="Ingresa el primer lado del triangulo">
+          <input id="lado2" type="number" class="form-control" placeholder="Ingresa el segundo lado del triangulo">
+          <input id="lado3" type="number" class="form-control" placeholder="Ingresa el tercer lado del triangulo">
           <button id="calcularPT" type="button" class="btn btn-secondary">Calcular</button>
         </div>
       </div>
@@ -141,7 +141,7 @@
     <div id="areaTriangulo" class="modal">
       <div class="contenidoModal">
         <span class="cerrarModalT2"><i class="fa-solid fa-xmark"></i></span>
-        <h2>Área</h2>
+        <h2>Área de triangulo</h2>
         <div class="form-group">
           <input id="baseT" type="text" class="form-control" placeholder="Ingresa la base del triangulo">
           <input id="alturaT" type="text" class="form-control" placeholder="Ingresa la altura lado del triangulo">
@@ -154,7 +154,7 @@
     <div id="perimetroCuadrado" class="modal">
       <div class="contenidoModal">
         <span class="cerrarModalCu"><i class="fa-solid fa-xmark"></i></span>
-        <h2>Perímetro</h2>
+        <h2>Perímetro de cuadrado</h2>
         <div class="form-group">
           <input id="ladoC" type="text" class="form-control" placeholder="Ingresa el lado del cuadrado">
           <button id="calcularPCu" type="button" class="btn btn-secondary">Calcular</button>
@@ -165,10 +165,35 @@
     <div id="areaCuadrado" class="modal">
       <div class="contenidoModal">
         <span class="cerrarModalCu2"><i class="fa-solid fa-xmark"></i></span>
-        <h2>Área</h2>
+        <h2>Área de cuadrado</h2>
         <div class="form-group">
-          <input id="ladoC" type="text" class="form-control" placeholder="Ingresa el lado del cuadrado">
+          <input id="ladoCA" type="text" class="form-control" placeholder="Ingresa el lado del cuadrado">
           <button id="calcularACu" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+
+     <!--Rectangulo-->
+     <div id="perimetroRectangulo" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalR"><i class="fa-solid fa-xmark"></i></span>
+        <h2>Perímetro de rectangulo</h2>
+        <div class="form-group">
+          <input id="baseR" type="text" class="form-control" placeholder="Ingresa la base del rectangulo">
+          <input id="alturaR" type="text" class="form-control" placeholder="Ingresa la altura lado del rectangulo">
+          <button id="calcularPR" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="areaRectangulo" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalR2"><i class="fa-solid fa-xmark"></i></span>
+        <h2>Área de rectangulo</h2>
+        <div class="form-group">
+          <input id="baseAR" type="text" class="form-control" placeholder="Ingresa la base del Rectangulo">
+          <input id="alturaAR" type="text" class="form-control" placeholder="Ingresa la altura lado del Rectangulo">
+          <button id="calcularAR" type="button" class="btn btn-secondary">Calcular</button>
         </div>
       </div>
     </div>
