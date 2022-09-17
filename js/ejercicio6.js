@@ -1,54 +1,39 @@
-const formulario = document.getElementById('form');
-const inputs = document.querySelectorAll('#form input');
+const formulario = document.getElementById('formulario');
+const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
-
-    
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-    apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-    //fecha:/^[a-zA-ZÀ-ÿ\s]{1,40}$/,
-    correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+	apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	password: /^.{4,12}$/ // 4 a 12 digitos.
 }
 
 const campos = {
 	nombre: false,
 	apellido: false,
-	//fecha: false,
-    correo: false,
-    password: false
-	
+	correo: false,
+	password: false
 }
 
 const validarFormulario = (e) => {
 	switch (e.target.name) {
-
-        case "nombre":
+		case "nombre":
 			validarCampo(expresiones.nombre, e.target, 'nombre');
 		break;
-
-        case "apellido":
+		case "apellido":
 			validarCampo(expresiones.apellido, e.target, 'apellido');
 		break;
-
-       /*case "fecha":
-			validarCampo(expresiones.fecha, e.target, 'fecha');
-		break;*/
-
-        case "correo":
+		case "correo":
 			validarCampo(expresiones.correo, e.target, 'correo');
 		break;
-
 		case "password":
 			validarCampo(expresiones.password, e.target, 'password');
 			validarPassword2();
 		break;
-
 		case "password2":
 			validarPassword2();
 		break;
 		
-	
 	}
 }
 
@@ -100,7 +85,7 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
-	if(campos.nombre && campos.apellido && campos.correo && campos.password){
+	if(campos.nombre && campos.apellido && campos.correo && campos.password && terminos.checked ){
 		formulario.reset();
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');

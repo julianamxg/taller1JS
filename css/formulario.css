@@ -31,7 +31,7 @@ main {
 	position: relative;
 }
 
-.formulario__input {
+.form-control {
 	width: 100%;
 	background: #fff;
 	border: 3px solid transparent;
@@ -42,13 +42,13 @@ main {
 	transition: .3s ease all;
 }
 
-.formulario__input:focus {
+.form-control:focus {
 	border: 3px solid #0075FF;
 	outline: none;
 	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
 }
 
-.formulario__input-error {
+.form-control-error {
 	font-size: 12px;
 	margin-bottom: 0;
 	display: none;
