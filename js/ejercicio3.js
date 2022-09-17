@@ -8,14 +8,14 @@ calcular.addEventListener('click', function(){
     parseInt(primerLado, segundoLado, tercerLado);
    
     if(primerLado == segundoLado && primerLado == tercerLado && segundoLado == tercerLado){       
-        alert(`El triangulo es equilatero`);
+        swal(`El triangulo es equilatero`);
     }
 
     else if(primerLado == segundoLado || primerLado == tercerLado ||segundoLado == tercerLado){       
-        alert(`El triangulo es isosceles`);
+        swal(`El triangulo es isosceles`);
     }
 
     else if(primerLado != segundoLado && primerLado != tercerLado ||segundoLado != tercerLado){       
-        alert(`El triangulo es escaleno`);
+        swal(`El triangulo es escaleno`);
     }
 })

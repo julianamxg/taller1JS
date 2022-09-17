@@ -9,32 +9,33 @@ consultar.addEventListener('click', function () {
     //Profe tatiana
         //Respuesta correcta
         if (opcionN == 1 && opcionA == 6 && opcionAc == 11) {
-        alert(`Respuesta correcta`);
+            swal("¡Respuesta correcta!", "Muy bien", "success");
         }
 
         //Respuesta incorrecta
         else if (opcionN != 1 && opcionA != 6 && opcionAc == 11) {
-        alert(`Respuesta incorrecta`);
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
+            
         }
 
         else if (opcionN == 1 && opcionA != 6 && opcionAc != 11) {
-            alert(`Respuesta incorrecta`);
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 1 && opcionA != 6 && opcionAc == 11) {
-            alert(`Respuesta incorrecta`);
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 1 && opcionA == 6 && opcionAc != 11) {
-            alert(`Respuesta incorrecta`);
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 1 && opcionA == 6 && opcionAc != 11) {
-            alert(`Respuesta incorrecta`);
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 1 && opcionA == 6 && opcionAc == 11) {
-            alert(`Respuesta incorrecta`);
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
     
 
@@ -42,127 +43,127 @@ consultar.addEventListener('click', function () {
     //Profe Carolina
         //Respuesta correcta
         else if (opcionN == 2 && opcionA == 7 && opcionAc == 12) {
-        alert('Respuesta correcta')
+            swal("¡Respuesta correcta!", "Muy bien", "success");
         }
 
         //Respuesta incorrecta
         else if (opcionN != 2 && opcionA != 7 && opcionAc == 12) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 2 && opcionA != 7 && opcionAc != 12) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 2 && opcionA == 7 && opcionAc != 12) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 2 && opcionA == 7 && opcionAc != 12) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 2 && opcionA == 7 && opcionAc == 12) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 2 && opcionA != 7 && opcionAc == 12) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         
     //Profe yaneth
         //Respuesta correcta
         else if (opcionN == 3 && opcionA == 8 && opcionAc == 13) {
-            alert('Respuesta correcta')
+            swal("¡Respuesta correcta!", "Muy bien", "success");
         }
 
         //Respuestas incorrectas
         else if (opcionN != 3 && opcionA != 8 && opcionAc == 13) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 3 && opcionA != 8 && opcionAc != 13) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN !== 3 && opcionA == 8 && opcionAc != 13) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 3 && opcionA == 8 && opcionAc != 13) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 3 && opcionA == 8 && opcionAc == 13) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 3 && opcionA != 8 && opcionAc == 13) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
     //Profe fernando
         //Respuesta correcta
         else if (opcionN == 4 && opcionA == 9 && opcionAc == 14) {
-            alert('Respuesta correcta')
+            swal("¡Respuesta correcta!", "Muy bien", "success");
         }
 
         //Respuestas incorrectas
         else if (opcionN != 4 && opcionA != 9 && opcionAc == 14) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 4 && opcionA != 9 && opcionAc != 14) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 4 && opcionA == 9 && opcionAc != 14) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 4 && opcionA == 9 && opcionAc != 14) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 4 && opcionA == 9 && opcionAc == 14) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 4 && opcionA != 9 && opcionAc == 14) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
 
     //Profe Cristian  
         //Respuesta correcta
         else if (opcionN == 5 && opcionA == 10 && opcionAc == 15) {
-            alert('Respuesta correcta')
+            swal("¡Respuesta correcta!", "Muy bien", "success");
         }
 
         //Respuestas incorrectas
         else if (opcionN != 5 && opcionA != 10 && opcionAc == 15) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 5 && opcionA != 10 && opcionAc != 15) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 5 && opcionA == 10 && opcionAc != 15) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 5 && opcionA == 10 && opcionAc != 15) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN != 5 && opcionA == 10 && opcionAc == 15) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         else if (opcionN == 5 && opcionA != 10 && opcionAc == 15) {
-            alert('Respuesta incorrecta')
+            swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
         }
 
         
