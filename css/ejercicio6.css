@@ -135,6 +135,55 @@ main {
 }
 
 
+img.card-img-top {
+    width: 43%;
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
+    padding-top: 200px;
+    display: none;
+}
+
+.contenidoModal{
+    background-color: #FFFFFF;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;
+	color: #2c3e50;
+}
+
+.contenidoModal .form-group {
+    width: 100%;
+}
+
+.cerrarModal{
+    font-size: 2rem;
+    float: right;  
+	color: #2c3e50;
+}
+
+.cerrarModal:hover{
+    cursor: pointer;
+}
+
+
+
+@keyframes animarmodal {
+    from {top: -300px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+
 /* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
 	.formulario {

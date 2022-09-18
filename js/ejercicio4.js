@@ -15,7 +15,6 @@ consultar.addEventListener('click', function () {
         //Respuesta incorrecta
         else if (opcionN != 1 && opcionA != 6 && opcionAc == 11) {
             swal("¡Respuesta incorrecta!", "Vuelve a intentar", "error");
-            
         }
 
         else if (opcionN == 1 && opcionA != 6 && opcionAc != 11) {

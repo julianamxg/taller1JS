@@ -15,7 +15,7 @@ calcular.addEventListener('click', function(){
         swal(`El triangulo es isosceles`);
     }
 
-    else if(primerLado != segundoLado && primerLado != tercerLado ||segundoLado != tercerLado){       
+    else if(primerLado != segundoLado && primerLado != tercerLado && segundoLado != tercerLado){       
         swal(`El triangulo es escaleno`);
     }
 })
