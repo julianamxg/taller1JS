@@ -1,3 +1,4 @@
+//terminos
 let terminos=document.getElementById("terminos");
     let modal=document.getElementById("modal");
     let cerrar=document.getElementById("cerrar");
